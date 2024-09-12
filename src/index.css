@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,html {
+  position: absolute;
+  scroll-behavior: smooth;
+}
+
+.fix {
+  color: aqua;
+  position: fixed;
+}
+.scroll {
+  margin-top: 80px;
+}
+
+h1 {
+  width: 20vw;
+  margin: auto;
+  border-bottom: 2px solid rgb(3, 79, 231);
+}
+
+tbody tr td {
+  border: 2px solid black;
+  padding: 5px;
+}
+.card {
+  width: 82vw;
+  margin-top:100px;
+}
+.table_class {
+  width: 98vw;
+  margin-top:100px;
+}
+.todo {
+  width: 98vw;
+  margin-top:100px;
+}
+.photo {
+  width: 98vw;
+  margin-top:50px;
+}
+.Album{
+  width: 98vw;
+  margin-top:100px;
+}
+.home{
+  width: 98vw;
+  margin-top:100px;
+}
